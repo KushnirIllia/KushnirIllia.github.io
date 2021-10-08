@@ -67,7 +67,7 @@ function endGame() {
   $game.style.backgroundColor = '#ccc'
   $resultHeader.classList.remove('hide')
   $result.innerHTML = score
-  $time.textContent = '5.0'
+  $time.textContent = `${$userTime.value}.0`
 }
 
 function handleBoxClick(e) {
